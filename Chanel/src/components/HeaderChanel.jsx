@@ -10,7 +10,10 @@ function HeaderChanel() {
            <div className="logochanel">
             <img className="logo" src ={chanelLogo} alt ="Brand-logo"/>
            </div>
-           <div className="icons-links"></div>
+           <div className="icons-links">
+            
+
+           </div>
         </div>
         <div className="sections-links">
             <ul className="sections-names">
