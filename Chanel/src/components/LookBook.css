@@ -4,16 +4,15 @@
     height: 100vh;
     position: relative;
     z-index: 1;
-    display: flex;
-    top: 140px; 
+    display: flex; 
     justify-content: center;
   
  
 }
 .chanelMain {
-    width: 2560px;
-    max-height: 900px ;
+    position: absolute;
     object-fit: none;
     margin-top: 230px;
+    margin-bottom: 160px;
  
 }   

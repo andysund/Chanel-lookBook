@@ -1,6 +1,10 @@
-.downflow {
+.downflow-background {
     background-color: red;
     z-index: 2;
     width: 100%;
-    height: 100px;
+    display: flex;
+ 
+}
+.img-background {
+    flex-basis: 1;
 }
