@@ -11,6 +11,19 @@ function HeaderChanel() {
             <img className="logo" src ={chanelLogo} alt ="Brand-logo"/>
            </div>
            <div className="icons-links">
+
+            <a href="/search" className="icon-link">
+            <i className="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a href="/profile" className="icon-link">
+            <i className="fa-regular fa-user"></i>
+          </a>
+          <a href="/favorites" className="icon-link">
+            <i className="fa-regular fa-star"></i>
+          </a>
+          <a href="/cart" className="icon-link">
+            <i className="fa-solid fa-bag-shopping"></i>
+          </a>
             
 
            </div>
