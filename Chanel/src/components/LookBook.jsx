@@ -6,7 +6,7 @@ function LookBook() {
   return (
     <>
       <div className="lookbook">
-        <img className="chanelMain"src={chanelMain} alt ="welcomePage"/>
+       
       </div>
     </>
   )

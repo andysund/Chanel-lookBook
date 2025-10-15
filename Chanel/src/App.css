@@ -22,5 +22,6 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+   background-color:#fbf4e2;
 }
 
