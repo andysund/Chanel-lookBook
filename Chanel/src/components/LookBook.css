@@ -1,0 +1,12 @@
+.lookbook {
+    background-color: blue;
+    width: 1900px;
+    height: 900px;
+    position: relative;
+    z-index: 1;
+}
+.chanelMain {
+    width: 1900px;
+    height: 900px;
+    object-fit: cover;
+}
