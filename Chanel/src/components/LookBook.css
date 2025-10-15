@@ -1,12 +1,14 @@
 .lookbook {
-    background-color: blue;
+    background-color: transparent;
     width: 1900px;
     height: 900px;
     position: relative;
     z-index: 1;
+ 
 }
 .chanelMain {
     width: 1900px;
     height: 900px;
     object-fit: cover;
-}
+    border-radius: 15px;
+}   
