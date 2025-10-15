@@ -1,4 +1,5 @@
 import './HeaderChanel.css'
+import chanelLogo from '../assets/chanel-logo.svg'
 function HeaderChanel() {
 
 
@@ -6,10 +7,24 @@ function HeaderChanel() {
     <>
      <header className="header">
         <div className="logo-icons">
-           <div className="logochanel"></div>
+           <div className="logochanel">
+            <img className="logo" src ={chanelLogo} alt ="Brand-logo"/>
+           </div>
            <div className="icons-links"></div>
         </div>
-        <div className="sections-links"></div>
+        <div className="sections-links">
+            <ul className="sections-names">
+                <li>HAUTE COUTURE</li>
+                <li>MODE</li>
+                <li>HAUTE JOAILLERIE</li>
+                <li>JOAILLERIE</li>
+                <li>HORLOGERIE</li>
+                <li>LUNETTES</li>
+                <li>PARFUMS</li>
+                <li>MAQUILLAGE</li>
+                <li>SOIN</li>
+            </ul>
+        </div>
      </header>
     </>
   )
